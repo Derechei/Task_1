@@ -11,6 +11,7 @@
         if (n === 1) return 1;
         return n*factorial(n-1);
     };
+
     button.onclick =  function(){
         paragraph.innerText ="Factorial of " + first.value + " = " + factorial(+first.value);
     };

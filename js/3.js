@@ -5,7 +5,7 @@
     var login = prompt("Type your login: "),
         password,
         section = document.getElementsByTagName("section")[0];
-    //if login not null
+    // If login not null.
     if (login){
         login = login.toLocaleLowerCase();
     }

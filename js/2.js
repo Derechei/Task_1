@@ -3,8 +3,6 @@
  */
 ;(function(){
     var digit = parseInt(prompt("Input positive or negative digit")),
-        // or
-        // digit = +prompt("Input positive or negative digit"),
         section = document.getElementsByTagName("section")[0];
     if(digit > 0){
         alert(1);

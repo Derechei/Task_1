@@ -3,7 +3,7 @@
  */
 ;(function(){
     var age;
-    // with for
+    // With for loop.
     /*for(;;){
         age =  prompt("Type digit bigger than 100");
         if (+age > 100 || age == null) {
@@ -11,12 +11,12 @@
         }
     }*/
 
-    // with do
+    // With do loop.
     do {
         age =  prompt("Type digit bigger than 100");
     } while (age <= 100 && age !== null);
 
-    // with while
+    // With while loop.
     /*age =  prompt("Type digit bigger than 100");
     while(age <= 100 && age !== null) {
         age =  prompt("Type digit bigger than 100");

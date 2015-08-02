@@ -7,6 +7,7 @@
         button =  document.querySelector("[type=button]"),
         i,
         sum = 0;
+
     // Using loop.
     function sumTo(n){
         for(i = 0; i <= +first.value; i += 1){
@@ -26,8 +27,9 @@
 /*    function sumTo(n){
         return (1+n)/2*n;
     }*/
+
     button.onclick =  function(){
-        paragraph.innerText =
-            first.value + " = " + sumTo(+first.value);
+        paragraph.innerText = first.value + " = " + sumTo(+first.value);
+        sum = 0;
     };
 }());

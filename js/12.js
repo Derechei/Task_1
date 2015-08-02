@@ -16,6 +16,7 @@
         console.log(res);
         return res[n];
     };
+
     button.onclick =  function(){
         paragraph.innerText ="Fibonaccii number " + first.value + " = " + fib(+first.value);
         res = [0,1];
